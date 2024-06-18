@@ -1,0 +1,54 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "archethic-wallet",
+            "cwd": "apps/archethic-wallet",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "archethic-wallet (profile mode)",
+            "cwd": "apps/archethic-wallet",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "archethic-wallet (release mode)",
+            "cwd": "apps/archethic-wallet",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "dex",
+            "cwd": "apps/dex",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "dex (profile mode)",
+            "cwd": "apps/dex",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "dex (release mode)",
+            "cwd": "apps/dex",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "AWC example",
+            "cwd": "packages/archethic-wallet-client-dart/example",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": ".",
+		},
+		{
+			"path": "packages/archethic-wallet-client-dart"
+		},
+		{
+			"path": "packages/libdart"
+		},
+		{
+			"path": "packages/messaging_dart_sdk"
+		},
+		{
+			"path": "packages/archethic-dapp-framework-flutter"
+		},
+		{
+			"path": "apps/archethic-wallet"
+		},
+		{
+			"path": "apps/dex",
+		}
+	],
+	"settings": {
+		"conventionalCommits.scopes": [
+			"rpc"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"vivaxy.vscode-conventional-commits",
+			"dart-code.flutter"
+		]
+	}
+}

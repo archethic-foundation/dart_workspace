@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/apps/dex/melos_aedex.iml" filepath="$PROJECT_DIR$/apps/dex/melos_aedex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/archethic-wallet/melos_aewallet.iml" filepath="$PROJECT_DIR$/apps/archethic-wallet/melos_aewallet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/archethic-dapp-framework-flutter/melos_archethic_dapp_framework_flutter.iml" filepath="$PROJECT_DIR$/packages/archethic-dapp-framework-flutter/melos_archethic_dapp_framework_flutter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/libdart/melos_archethic_lib_dart.iml" filepath="$PROJECT_DIR$/packages/libdart/melos_archethic_lib_dart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/messaging_dart_sdk/melos_archethic_messaging_lib_dart.iml" filepath="$PROJECT_DIR$/packages/messaging_dart_sdk/melos_archethic_messaging_lib_dart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/archethic-wallet-client-dart/melos_archethic_wallet_client.iml" filepath="$PROJECT_DIR$/packages/archethic-wallet-client-dart/melos_archethic_wallet_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/archethic-wallet-client-dart/example/melos_flutter_dapp_example.iml" filepath="$PROJECT_DIR$/packages/archethic-wallet-client-dart/example/melos_flutter_dapp_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_archethic_dart_workspace.iml" filepath="$PROJECT_DIR$/melos_archethic_dart_workspace.iml" />
+    </modules>
+  </component>
+</project>

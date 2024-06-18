@@ -1,0 +1,5 @@
+name: archethic_dart_workspace
+
+packages:
+  - apps/**
+  - packages/**
