@@ -85,7 +85,7 @@
 			},
 			{
 				"name": "AWC example",
-				"cwd": "${workspaceFolder:archethic-wallet-client-dar}/example",
+				"cwd": "${workspaceFolder:archethic-wallet-client-dart}/example",
 				"request": "launch",
 				"type": "dart",
 				"program": "lib/main.dart"
