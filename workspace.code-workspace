@@ -32,5 +32,64 @@
 			"vivaxy.vscode-conventional-commits",
 			"dart-code.flutter"
 		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "archethic-wallet",
+				"cwd": "${workspaceFolder:archethic-wallet}",
+				"request": "launch",
+				"type": "dart",
+				"program": "lib/main.dart"
+			},
+			{
+				"name": "archethic-wallet (profile mode)",
+				"cwd": "${workspaceFolder:archethic-wallet}",
+				"request": "launch",
+				"type": "dart",
+				"flutterMode": "profile",
+				"program": "lib/main.dart"
+			},
+			{
+				"name": "archethic-wallet (release mode)",
+				"cwd": "${workspaceFolder:archethic-wallet}",
+				"request": "launch",
+				"type": "dart",
+				"flutterMode": "release",
+				"program": "lib/main.dart"
+			},
+			{
+				"name": "dex",
+				"cwd": "${workspaceFolder:dex}",
+				"request": "launch",
+				"type": "dart",
+				"program": "lib/main.dart"
+			},
+			{
+				"name": "dex (profile mode)",
+				"cwd": "${workspaceFolder:dex}",
+				"request": "launch",
+				"type": "dart",
+				"flutterMode": "profile",
+				"program": "lib/main.dart"
+			},
+			{
+				"name": "dex (release mode)",
+				"cwd": "${workspaceFolder:dex}",
+				"request": "launch",
+				"type": "dart",
+				"flutterMode": "profile",
+				"program": "lib/main.dart"
+			},
+			{
+				"name": "AWC example",
+				"cwd": "${workspaceFolder:archethic-wallet-client-dar}/example",
+				"request": "launch",
+				"type": "dart",
+				"program": "lib/main.dart"
+			}
+		],
+		"compounds": []
 	}
 }
