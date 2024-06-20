@@ -3,3 +3,7 @@ name: archethic_dart_workspace
 packages:
   - apps/**
   - packages/**
+
+scripts:
+  pubget:
+    exec: flutter pub get
