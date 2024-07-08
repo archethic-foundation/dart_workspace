@@ -26,7 +26,7 @@
 		"conventionalCommits.scopes": [
 			"rpc"
 		],
-		"dart.flutterSdkPath": "~/.asdf/installs/flutter/3.19.6-stable"
+		"dart.flutterSdkPath": "~/.asdf/installs/flutter/3.22.2-stable"
 	},
 	"extensions": {
 		"recommendations": [
