@@ -1,7 +1,21 @@
 {
+	"settings": {
+		"conventionalCommits.scopes": [
+			"rpc",
+			"authentication",
+			"transactions"
+		],
+		"dart.flutterSdkPath": "~/.asdf/installs/flutter/3.22.2-stable"
+	},
+	"extensions": {
+		"recommendations": [
+			"vivaxy.vscode-conventional-commits",
+			"dart-code.flutter"
+		]
+	},
 	"folders": [
 		{
-			"path": ".",
+			"path": "."
 		},
 		{
 			"path": "packages/archethic-wallet-client-dart"
@@ -19,23 +33,12 @@
 			"path": "apps/archethic-wallet"
 		},
 		{
-			"path": "apps/dex",
+			"path": "apps/dex"
+		},
+		{
+			"path": "apps/bridge"
 		}
 	],
-	"settings": {
-		"conventionalCommits.scopes": [
-			"rpc",
-			"authentication",
-			"transactions"
-		],
-		"dart.flutterSdkPath": "~/.asdf/installs/flutter/3.22.3-stable"
-	},
-	"extensions": {
-		"recommendations": [
-			"vivaxy.vscode-conventional-commits",
-			"dart-code.flutter"
-		]
-	},
 	"launch": {
 		"version": "0.2.0",
 		"configurations": [
@@ -80,6 +83,29 @@
 			{
 				"name": "dex (release mode)",
 				"cwd": "${workspaceFolder:dex}",
+				"request": "launch",
+				"type": "dart",
+				"flutterMode": "profile",
+				"program": "lib/main.dart"
+			},
+			{
+				"name": "bridge",
+				"cwd": "${workspaceFolder:bridge}",
+				"request": "launch",
+				"type": "dart",
+				"program": "lib/main.dart"
+			},
+			{
+				"name": "bridge (profile mode)",
+				"cwd": "${workspaceFolder:bridge}",
+				"request": "launch",
+				"type": "dart",
+				"flutterMode": "profile",
+				"program": "lib/main.dart"
+			},
+			{
+				"name": "bridge (release mode)",
+				"cwd": "${workspaceFolder:bridge}",
 				"request": "launch",
 				"type": "dart",
 				"flutterMode": "profile",
