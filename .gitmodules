@@ -1,0 +1,21 @@
+[submodule "packages/libdart"]
+	path = packages/libdart
+	url = git@github.com:archethic-foundation/libdart.git
+[submodule "packages/archethic-dapp-framework-flutter"]
+	path = packages/archethic-dapp-framework-flutter
+	url = git@github.com:archethic-foundation/archethic-dapp-framework-flutter.git
+[submodule "packages/archethic-wallet-client-dart"]
+	path = packages/archethic-wallet-client-dart
+	url = git@github.com:archethic-foundation/archethic-wallet-client-dart.git
+[submodule "packages/messaging_dart_sdk"]
+	path = packages/messaging_dart_sdk
+	url = git@github.com:archethic-foundation/messaging_dart_sdk.git
+[submodule "apps/archethic-wallet"]
+	path = apps/archethic-wallet
+	url = git@github.com:archethic-foundation/archethic-wallet.git
+[submodule "apps/dex"]
+	path = apps/dex
+	url = git@github.com:archethic-foundation/dex.git
+[submodule "apps/bridge"]
+	path = apps/bridge
+	url = git@github.com:archethic-foundation/bridge.git
