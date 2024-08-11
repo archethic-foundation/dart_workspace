@@ -5,7 +5,7 @@
 			"authentication",
 			"transactions"
 		],
-		"dart.flutterSdkPath": "~/.asdf/installs/flutter/3.22.2-stable"
+		"dart.flutterSdkPath": "~/.asdf/installs/flutter/3.22.3-stable"
 	},
 	"extensions": {
 		"recommendations": [
